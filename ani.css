@@ -10,6 +10,37 @@ body {
     background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
 }
 
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 7px;
+}
+
 .spacer {
     height: 20vh;
     width: 100vw;
@@ -19,15 +50,16 @@ body {
     height: 100vh;
     width: 100vw;
     font-size: 12pt;
-    background-color: darkgrey;
+  
     display: flex;
     align-items: center;
+    justify-content:center;
 }
 
 .slider-container {
     height: 500px;
-    width: 100vw;
-    background-color: grey;
+    width: 90vw;
+    
     display: grid;
     gap: 15px;
     grid-auto-flow: column;
@@ -36,9 +68,17 @@ body {
     overflow-x: auto;
 }
 
-.slider-card {
-    background-color: blue;
+.slider-container::-webkit-scrollbar {
+  display: block;
+
 }
+
+.slider-card {
+    background-color: darkgray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
