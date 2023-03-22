@@ -32,8 +32,6 @@ body {
     gap: 15px;
     grid-auto-flow: column;
     grid-auto-columns: 20%;
-
-    overflow-x: auto;
 }
 
 .slider-card {
