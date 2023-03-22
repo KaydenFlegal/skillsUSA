@@ -189,47 +189,9 @@ body {
 .affix {
     padding: 0;
     background-color: #111;
-<<<<<<< Updated upstream
-}
-
-
-
-
-
-
-.myH2 {
-	text-align:center;
-	font-size: 4rem;
-}
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
 }
 
 /*Waves CSS*/
-
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-
-
-
-
-.header
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-
-.inner-header {
-  height:65vh;
-  width:100%;
-  margin: 0;
-  padding: 0;
-}
 
 .flex { /*Flexbox for containers*/
   display: flex;
@@ -295,6 +257,4 @@ body {
   h1 {
     font-size:24px;
   }
-=======
->>>>>>> Stashed changes
 }
