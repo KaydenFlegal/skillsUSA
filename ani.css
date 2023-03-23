@@ -279,6 +279,27 @@ body {
     transform: translate3d(85px,0,0);
   }
 }
+
+.header-main{
+  color: white;
+  margin: 3rem;
+}
+
+.header-main > .grid{
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-main h1{
+font-size: 50px;
+}
+
+.header-main p{
+  font-size: 20px;
+  }
+
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
