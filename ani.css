@@ -283,21 +283,28 @@ body {
 .header-main{
   color: white;
   margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-main video{
+width: 100%;
+height: 100%;
 }
 
 .header-main > .grid{
   color: white;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .header-main h1{
 font-size: 50px;
+margin: 3rem 3rem 0px 0rem;
 }
 
 .header-main p{
   font-size: 20px;
+  margin-right: 3rem;
+  margin-top: 0;
   }
 
 /*Shrinking for mobile*/
