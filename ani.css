@@ -301,18 +301,18 @@ body {
   }
 }
 
-.header-main{
+.header-wrapper{
   color: white;
   margin: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.header-main video{
+.header-wrapper video{
 width: 100%;
 height: 100%;
 }
 
-.header-main > .grid{
+.header-wrapper > .grid{
   color: white;
 
 }
@@ -322,7 +322,7 @@ font-size: 50px;
 margin: 3rem 3rem 0px 0rem;
 }
 
-.header-main p{
+.header-wrapper p{
   font-size: 20px;
   margin-right: 3rem;
   margin-top: 0;
